@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    width: 100%;
+    background-color:#333;
+    padding-left: 20px;
+    position:fixed;
+}
+section{
+    text-align: center;
+}
+.nav_option{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 15px;
+}
+.nav_option li{
+    list-style-type:none;
+}
+.nav_option li:hover{
+    padding: 10px;
+     background-color: rgba(150, 150,160, 0.2); 
+    
+}
+.nav_option a{
+    text-decoration:none;
+    color: #EEE;
+}
+/* ================================= Navbar CSS Completed Here  =========================== */
+.myTunes-section{
+    background-color: #252529;
+}
+/* == common css box and paragraphing css == */
+ .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0 40px;
+    color: #EEE;
+}
+.para1{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+ .para2{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight:500;
+}
+.myTunes-section .Album-post{
+  background-image: url('./img/pexels-pixabay-210766.jpg');
+  height:600px;
+  background-size:cover;
+  background-position: center;
+}
+.myTunes-section .Album-post h1{
+    font-size: 55px;
+    font-weight: 600;
+
+} 
+.myTunes-section #music-head{
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.myTunes-section #music-head span{
+    margin-left: 10px;
+}
+.myTunes-section button{
+    background-color: rgb(145, 22, 22);
+    border: none;
+    color: #fff;
+    padding: 20px;
+    font-size: 14px;
+}
+.myTunes-section .music-post{
+    margin-top: 20px;
+}
+.myTunes-section .music-post p{
+    font-size: 14px;
+}
+.myTunes-section .music-post img{
+    margin-bottom: 30px;
+}
+/* ========================= MyTunes section finished here =================== */
+.video-section,.gift-post{
+    padding: 30px 40px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.video-section .container h1{
+    font-size: 29px;
+   font-weight: 600;
+   line-height: 40px;
+   margin-top: 30px;
+}
+.video-section .container p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 28px;
+}
+.video-section .container button{
+    background-color: rgb(19, 19, 92);
+    padding: 15px;
+    color: #EEE;
+    border: none;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.video-section .container button:hover{
+    background-color: rgb(19, 19, 92,.8);
+}
+/* =================================== Video section css  end here ============================= */
+.gift-section .entertainment{
+    height: 500px;
+    background-image:url('./img/starpic.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.gift-section .gift-post{
+    display: flex;
+}
+.gift-section .gift-post .gift-description{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin:20px;
+    height: 200px;
+    width: 100%;
+}
+.gift-description h1{
+    font-size:22px;
+    font-weight: 500;
+}
+.gift-description p{
+    font-size: 15px;
+    line-height: 20px;
+}
+.gift-description .redeem{
+    color: #103063;
+    font-weight: 500;
+    padding:10px 0px;
+    border-top:1px solid gray;
+}
+.gift-description .redeem span{
+    margin-left: 10px;
+}
+/* ======================gift section end here===================== */
+.footer1{
+    padding:20px 80px;
+    height: 250px;
+    background-color:#252529;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;  
+}
+.footerdiv{
+    width: 200px;
+    padding: 10px;
+}
+.footerdiv p{
+    font-size: 14px;
+    color: #ccc;
+    line-height: 20px;
+}
+.footerdiv h3{
+    color:#fff;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    border-bottom: 0.1px solid rgb(105, 98, 98);
+}
+.footer2{
+    height: 50px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEE;
+    font-size: 14px;
+}
+/* ============================= Footer secton end here ==============================  */
